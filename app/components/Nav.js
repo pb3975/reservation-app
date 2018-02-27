@@ -11,16 +11,11 @@ function Nav (){
       </li>
 
       <li>
-        <NavLink activeClassName='active' to='/battle'>
-          Battle
+        <NavLink activeClassName='active' to='/new'>
+          New Reservation
         </NavLink>
       </li>
 
-      <li>
-        <NavLink activeClassName='active' to='/popular'>
-          Popular
-        </NavLink>
-      </li>
     </ul>
   )
 }
