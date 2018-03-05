@@ -56,6 +56,12 @@ export default class ReservationForm extends React.Component {
         <form className="form" onSubmit={this.onSubmit}>
           {this.state.error && <p className="form__error">{this.state.error}</p>}
           <TimePicker
+            showSecond={false}
+            defaultValue={now}
+            className="xxx"
+            format={format}
+            use12Hours
+            inputReadOnly
             value={this.state.time}
             onChange={this.ontTimeChange}
           />
