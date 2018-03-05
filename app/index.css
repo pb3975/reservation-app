@@ -1,13 +1,39 @@
 body {
-font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
 }
 
 ul{
-    padding: 0;
+  padding: 0;
 }
 
 li{
-    list-style-type: none;
+  list-style-type: none;
+}
+
+.header {
+  text-align: center;
+  /* position:fixed; */
+  /* margin-bottom: 5rem; */
+  width: 100%;
+  /* background-image: url('resources/pexels-photo.jpg'); */
+}
+
+.title-image{
+  align-items: center;
+  background-image:url("https://images.pexels.com/photos/6267/menu-restaurant-vintage-table.jpg?h=350&dpr=2&auto=compress&cs=tinysrgb");
+  background-repeat:no-repeat;
+  background-size: cover;
+  display: flex;
+  height:20rem;
+  justify-content: center;
+  margin-top: 2rem;
+  width:100%;
+  font-size: 5rem;
+  color: white;
+}
+.restaurant-name {
+  font-size: 6rem;
+  color: white;
 }
 
 .button {
@@ -39,7 +65,15 @@ a {
     text-decoration: none;
     color: #d0021b;
 }
-.container {
+
+.nav {
+  display: flex;
+  flex-direction:row;
+  justify-content: space-around;
+  margin: 0 25% 0 25%;
+  
+}
+/* .container {
     max-width: 1200px;
     margin: 0 auto;
 }
@@ -84,7 +118,10 @@ a {
 
 .nav {
     display: flex;
-
+    flex-direction:row;
+    justify-content: space-around;
+    margin: 0 25% 0 25%;
+    
 }
 
 .active {
@@ -99,5 +136,5 @@ a {
     display: flex;
     flex-direction: column;
     align-items: center;
-}
+} */
 

@@ -11,8 +11,14 @@ function Nav (){
       </li>
 
       <li>
-        <NavLink activeClassName='active' to='/new'>
+        <NavLink activeClassName='active' to='/about'>
           New Reservation
+        </NavLink>
+      </li>
+
+       <li>
+        <NavLink activeClassName='active' to='/find'>
+          Find a Restaurant
         </NavLink>
       </li>
 

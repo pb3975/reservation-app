@@ -5,16 +5,18 @@ var Route = ReactRouter.Route;
 var Switch = ReactRouter.Switch;
 var Nav = require("./Nav");
 var Home = require("./Home");
-
+import Header from './Header'
+import Restaurant from './Restaurant'
 
 class App extends React.Component {
   render() {
     return (
+     
       <Router>
         <div className="container">
-          <Nav />
+        <Header />
           <Switch>
-            <Route exact path="/" component={Home} />
+            <Route exact path="/" component={Restaurant} />
             <Route render={function (){
               return <p>Not Found</p>
             }} />
