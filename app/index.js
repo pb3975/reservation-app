@@ -1,6 +1,6 @@
 var React = require('react');
 var ReactDOM = require('react-dom');
-require('./index.css');
+require('./public/index.css');
 var App = require('./components/App');
 
 

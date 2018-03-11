@@ -17,6 +17,7 @@
   "dependencies": {
     "axios": "^0.17.1",
     "express-generator": "^4.15.5",
+    "mongoose": "^5.0.9",
     "prop-types": "^15.6.0",
     "react": "^16.2.0",
     "react-dom": "^16.2.0",
