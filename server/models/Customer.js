@@ -1,21 +1,22 @@
-const mongoose = require('mongoose');
+
+const mongoose = require('mongoose')
 
 const Customer = mongoose.model('customer',
   {
     first_name: String,
-    last_name: String, 
+    last_name: String,
     date_of_birth: Date,
-    phone: String, 
-    email: String, 
+    phone: String,
+    email: String,
     password: String,
     location: {
       city: String,
       state: String,
-      zip_code: String
+      zip_code: String,
     }
-    
+
+
   }
 );
 
-module.exports = Customer;
-
+modules.export = Customer;
