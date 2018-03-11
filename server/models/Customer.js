@@ -19,4 +19,4 @@ const Customer = mongoose.model('customer',
   }
 );
 
-modules.export = Customer;
+module.exports = Customer;

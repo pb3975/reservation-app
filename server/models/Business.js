@@ -1,8 +1,9 @@
 const mongoose = require('mongoose')
 
-const Businesses = mongoose.model('business',
+const Business = mongoose.model('business',
   {
     type: String,
+    name: String,
     hours_of_operation:{
       monday:{ open: Number, close: Number },
       tuesday: { open: Number, close: Number },
@@ -24,4 +25,4 @@ const Businesses = mongoose.model('business',
   }
 );
 
-modules.export = Business;
+module.exports = Business;

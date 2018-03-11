@@ -9,4 +9,4 @@ const Reservation = mongoose.model('reservation',
   }
 )
 
-modules.export = Reservation;
+module.exports = Reservation;

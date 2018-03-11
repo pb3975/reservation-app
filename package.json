@@ -4,7 +4,10 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "webpack-dev-server --open"
+    "start-test": "webpack-dev-server --open",
+    "start": "react-scripts start",
+    "start-dev": "nf start -p 3001",
+    "create": "webpack"
   },
   "babel": {
     "presets": [
