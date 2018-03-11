@@ -15,10 +15,8 @@ const db_pass = process.env.DB_PASS;
 const db_name = process.env.DB_NAME;
 
 
-
 //Set up default mongoose connection
 const mongoDB = `mongodb://${db_user}:${db_pass}@ds111059.mlab.com:11059/${db_name}`;
-// const mongoDB = `mongodb://wmetz:iivEs9hart@ds111059.mlab.com:11059/revervation0`;
 mongoose.connect(mongoDB);
 // Get Mongoose to use the global promise library
 mongoose.Promise = global.Promise;
