@@ -18,6 +18,6 @@ module.exports = {
         historyApiFallback: true
     },
     plugins: [new HtmlWebpackPlugin({
-        template: 'app/index.html'
+        template: 'app/public/index.html'
     })]
 }
